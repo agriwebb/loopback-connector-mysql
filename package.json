@@ -6,7 +6,6 @@
   },
   "description": "MySQL connector for loopback-datasource-juggler",
   "main": "index.js",
-  "types": "index.d.ts",
   "scripts": {
     "pretest": "node pretest.js",
     "lint": "eslint .",
