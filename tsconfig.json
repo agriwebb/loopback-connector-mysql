@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "skipLibCheck": true,
+    "rootDir": "./lib",
+    "outDir": "./lib"
+  },
+  "include": ["lib/mysql.js"],
+  "exclude": ["**/*.d.ts"]
+}

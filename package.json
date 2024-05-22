@@ -8,6 +8,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
+    "build": "tsc",
     "pretest": "node pretest.js",
     "lint": "eslint .",
     "test": "mocha --timeout 10000 test/*.js",
@@ -28,7 +29,8 @@
     "mocha": "^2.1.0",
     "rc": "^1.0.0",
     "should": "^8.0.2",
-    "sinon": "^1.15.4"
+    "sinon": "^1.15.4",
+    "typescript": "^5.4.5"
   },
   "repository": {
     "type": "git",
